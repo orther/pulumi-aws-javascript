@@ -11,6 +11,8 @@ action "Pulumi Deploy (Current Stack)" {
     }
     secrets = [
         "PULUMI_ACCESS_TOKEN"
+        "AWS_ACCESS_KEY_ID"
+        "AWS_SECRET_ACCESS_KEY"
     ]
 }
 
@@ -27,5 +29,7 @@ action "Pulumi Preview (Merged Stack)" {
     }
     secrets = [
         "PULUMI_ACCESS_TOKEN"
+        "AWS_ACCESS_KEY_ID"
+        "AWS_SECRET_ACCESS_KEY"
     ]
 }
